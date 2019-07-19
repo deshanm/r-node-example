@@ -1,0 +1,28 @@
+{
+  "name": "r-node-example",
+  "version": "1.0.0",
+  "description": "Integrate R script with NodeJs application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deshatom/r-node-example.git"
+  },
+  "keywords": [
+    "r",
+    "r-script",
+    "node",
+    "express"
+  ],
+  "author": "Deshan Madurajith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deshatom/r-node-example/issues"
+  },
+  "homepage": "https://github.com/deshatom/r-node-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

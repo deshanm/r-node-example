@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/deshatom/r-node-example#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "r-script": "0.0.3"
   }
 }

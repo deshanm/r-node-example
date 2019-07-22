@@ -1,0 +1,55 @@
+{
+  "_from": "r-script",
+  "_id": "r-script@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-RUrp82bt8HGkhn07tlyTwaeLxCE=",
+  "_location": "/r-script",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "r-script",
+    "name": "r-script",
+    "escapedName": "r-script",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/r-script/-/r-script-0.0.3.tgz",
+  "_shasum": "454ae9f366edf071a4867d3bb65c93c1a78bc421",
+  "_spec": "r-script",
+  "_where": "/Users/Admin/Desktop/r-node-example",
+  "author": {
+    "name": "Josh Katz"
+  },
+  "bugs": {
+    "url": "http://github.com/joshkatz/r-script/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "A simple little module for passing data from NodeJS to R (and back again).",
+  "devDependencies": {
+    "queue-async": "^1.0.7"
+  },
+  "homepage": "http://github.com/joshkatz/r-script",
+  "keywords": [
+    "R",
+    "rstats",
+    "statistics"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "r-script",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshkatz/r-script.git"
+  },
+  "version": "0.0.3"
+}

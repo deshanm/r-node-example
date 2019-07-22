@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const R = require('r-script');
+const R = require('./r-script');
 
 // -------------------------------------------- controllers
 function executeExAsync(callback) {
@@ -9,7 +9,6 @@ function executeExAsync(callback) {
 		{ group: '(55,70]', rating: 64.6154, advance: 41.9231 },
 		{ group: '(70,85]', rating: 77.2, advance: 45.5 }
 	];
-
 	R('ex-async.R').data({ df: attitude, nGroups: 3, fxn: 'mean' }).call(function(error, result) {
 		if (error) {
 			console.error('ex-async throws error', error);
@@ -22,7 +21,7 @@ function executeExAsync(callback) {
 
 // -------------------------------------------- routes
 app.get('/', function(req, res) {
-	res.send('Hello World');
+	res.send('Hello World Go to - <a href="http://localhost:8081/ex-async"> http://localhost:8081/ex-async</a>');
 });
 
 app.get('/ex-async', function(req, res) {
@@ -35,7 +34,7 @@ app.get('/ex-async', function(req, res) {
 });
 
 // -------------------------------------------- Server Start
-const server = app.listen(8081, function() {
+const server = app.listen(8082, function() {
 	const port = server.address().port;
 	console.log(`Example app listening at http://localhost:${port}`);
 });
